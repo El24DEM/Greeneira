@@ -502,6 +502,7 @@ body {
   justify-content: flex-start;
   padding: 40px 20px;
   position:relative;
+overflow-y: auto;
 }
 
 .delivery-title{
