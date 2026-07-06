@@ -455,12 +455,12 @@ overflow-y: auto;
   margin-bottom:30px;
   margin-left:0;
 }
-
 .confirm-image{
   position:relative;
-  display:inline-block;
+  display:flex;
   cirsor:pointer;
   text-decoration:none;
+  align-items:center;
 }
 
 .confirm-image img{
@@ -475,15 +475,13 @@ overflow-y: auto;
   left:50%;
   transform:translate(-50%,-50%);
   width:100%;
-
   text-align:center;
-
+  align-items:center;
   color:#fff;
-
   font-size:14px;
   font-weight:800;
-
   pointer-events:none;
+  z-index:10;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito:wght@300;400;600;700;800&display=swap');
