@@ -11,7 +11,7 @@
 body{
     font-family:'Nunito',sans-serif;
     min-height:100vh;
-    overflow:hidden;
+    overflow:auto;
     background:#f8fbf4;
     position:relative;
    background-color: #8fbf4; 
