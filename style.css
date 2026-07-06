@@ -456,12 +456,20 @@ overflow-y: auto;
   margin-left:0;
 }
 .confirm-image{
-  position:relative;
-  display:flex;
-  cirsor:pointer;
-  text-decoration:none;
-  align-items:center;
-}
+   background-image: url('https://cdn.phototourl.com/free/2026-07-03-d8195d70-74be-40c5-bca9-836d023d7eb5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 300px;
+  height: 120px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 auto;
 
 .confirm-image img{
   width:140px;
